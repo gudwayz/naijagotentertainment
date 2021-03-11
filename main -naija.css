@@ -1,0 +1,377 @@
+.btn {
+  padding: 0.5rem 1rem;
+  background: #ff5541;
+  color: white;
+  border-radius: 0.25rem;
+}
+  .btn:hover {
+    background: #ec331e !important;
+    color: white;
+  }
+
+.btn_big {
+  padding: 0.7rem 1.3rem;
+}
+
+.carousel-inner .carousel_item {
+    height: 400px;
+    display: block;
+  }
+
+
+.text_input {
+  padding: 0.5rem 1rem;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  /*border: 1px solid #ff5541;*/
+  outline: none;
+  color: #444;
+  line-height: 1.5 rem;
+  font-size: 1.2em;
+  font-family: roboto;
+}
+
+/*NAVBAR*/
+header {
+  /*border: 1px solid red;*/
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  z-index: 99;
+}
+  header hr {
+    margin: 0;
+   /* border: 1px solid #ff5541;*/
+  }
+
+
+.logo {
+  margin-left: 2em;
+}
+  .logo img {
+    width: 10em;
+    margin: 0 auto;
+    padding: 5px;
+  }
+
+.top_nav {
+  display: flex;
+  justify-content: space-between;
+  height: 66px;
+  background-color:mintcream;
+}
+
+.nav {
+  font-size: 1.3em;
+  margin: 0 2em 0 0;
+  padding: 10px;
+  display: flex;
+  list-style-type: none;
+}
+.nav-link{
+  color:red!important;
+  font-size: 1.2rem!important;
+  font-weight: bold !important;
+
+}
+.nav-link:hover{
+        background-color: #ff5541;
+        border-radius: 15px;
+        color: #fff!important;
+}
+
+
+  .nav li {
+    margin: 0px 10px;
+    display: flex;
+    align-items: center;
+  }
+    .nav li a {
+      display: block;
+      padding: 5px;
+      text-decoration: none;
+      font-family: roboto;
+      text-align: center;
+      color: #ff5541;
+    }
+      .nav li a:hover {
+        background-color: #ff5541;
+        border-radius: 15px;
+        color: #fff;
+      }
+
+
+.bot_nav {
+  background-color: #fff;
+  height: 40px;
+  font-size: 1.2em;
+ border-top: 1px solid black;
+}
+ .bot_nav ul {
+    height: 100%;
+    padding: 0 40px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+ }
+    .bot_nav ul li {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+    }
+      .bot_nav ul li a {
+        display: block;
+        padding: 5px;
+        text-decoration: none;
+        font-family: roboto;
+        text-align: center;
+        color: #ff5541;
+      }
+        .bot_nav ul li a:hover {
+          background-color: #ff5541;
+          border-radius: 15px;
+          color: #fff;
+        }
+      
+.menu_toggle {
+  display: none;
+}
+
+.page_wrapper {
+  margin-top: 120px;
+  flex: 1 0 auto;
+}
+.carousel .carousel-indicators li {
+  width:5px;
+ height: 1px;
+ border-radius: 100%;
+ background:black;
+}
+
+/* POST SLIDER
+
+//CONTENT*/
+.post-image,.post-title{
+  padding: 1rem 2rem;
+  position: relative;
+}
+
+.post-image .post-info{
+  padding: 1rem;
+  background: skyblue;
+  position: absolute;
+  bottom:0%;
+  left:20vw;
+  border-radius: 3rem;
+}
+.post-image>div{
+  overflow: hidden;
+}
+.post-image .img{
+  max-height: 70vh;
+  transition: all 1s ease;
+}
+.post-image .img:hover{
+  transform: scale(1.3);
+  cursor: pointer;
+}
+.pagination a{
+  padding:.6rem .9rem;
+  border-radius: 2rem;
+  margin:0 .3rem;
+  font-size: large;
+  color: #ff5541;
+  background: r;
+}
+/* SIDEBAR */
+
+.category-list .list-items{
+  background: red;
+  margin: .8rem 0;
+  padding: .4rem 1rem;
+  color:white;
+  border-radius: 2rem;
+}
+.popular-post .post-info{
+  padding: .4rem .1rem;
+  bottom: 0em;
+  border-radius: 0%;
+  background:skyblue;
+  left:2.5em;
+  font-size: .8rem;
+}
+.popular-post .post-title a h6{
+  text-justify: auto;
+}
+
+.founder{
+   letter-spacing:1.8rem;
+   line-height:1rem;
+   font:2rem;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #303036;
+  /*flex-shrink: 0;*/
+  color: #d3d3d3;
+  /*display: flex;*/
+  /*flex-direction: column;
+  justify-content: flex-end;*/
+}
+
+  .footer a {
+    color: #d3d3d3;
+    text-decoration: none;
+  }
+  .footer_bottom {
+    background-color: #343a40;
+    color: #686868;
+    height: auto;
+    text-align: center;
+    padding: 12px;
+  }
+  .footer_content {
+    height: 100%;
+    /*display: flex;*/
+  }
+
+    .footer_content .footer_section {
+      /*flex: 1;*/
+      padding: 25px;
+    }
+      .footer_content .footer_section h2 {
+        color: #fff;
+      }
+  
+    .about .contact span
+        {
+          display: block;
+          font-size: 1.1em;
+          margin-bottom: 8px;
+        }
+      
+      .socials a {
+        
+          border: 1px solid gray;
+          width: 45px;
+          height: 41px;
+          padding-top: 3px;
+          margin-right: 5px;
+          text-align: center;
+          display: inline-block;
+          font-size: 1.3em;
+          border-radius: 5px;
+          transition: all 0.3s;
+      }
+
+          .socials a:hover {
+            border: 1px solid #fff;
+            color: #fff;
+            transition: all 0.3s;
+           }
+
+    .quick_links h2 {
+      
+        margin-bottom: 20px;
+      }
+      .quick_links ul a {
+        
+          display: block;
+          margin-bottom: 10px;
+          font-size: 1.2em;
+          transition: all 0.3s;
+      }
+          .quick_links ul a:hover {
+            color: white;
+            margin-left: 15px;
+            transition: all 0.3s;
+          }
+      
+    .contact_form .contact_input
+       {
+        background: #272727;
+        color: #bebdbd;
+        margin-bottom: 10px;
+        line-height: 1.5rem;
+        padding: 0.7rem 1.2rem;
+       }
+
+        .contact_form .contact_input:focus {
+          background-color: #272727;
+        }
+      
+      .contact_btn {
+        float: right;
+        font-family: roboto, serif;
+      }
+
+/* MEDIA QUERIES*/
+
+/*@media only screen and(max-width: 901px) {
+  
+  .footer {
+    height: auto;
+  }
+
+    .footer.footer_content {
+      flex-direction: column;
+    }
+
+      .footer.footer_content.contact_form.contact_btn {
+          width: 100%;
+        }
+}*/
+
+@media only screen and (max-width: 550px) {
+  header hr {
+      display: none;
+  }
+  .navbar-brand{
+    display:block;
+  }
+
+  .logo {
+    display: none;
+  }
+  .nav {
+    margin-right: 1em;
+  }
+    .nav li {
+      margin: 5px;
+    }
+  
+  .bot_nav {
+    height: 0px;
+    overflow: hidden;
+    width: 100%;
+    box-shadow: 2px, 2px;
+  }
+  .bot_nav ul {
+      display: flex;
+      flex-direction: column;
+  }
+  .bot_nav ul li a {
+          margin: 0;
+  }
+
+  .menu_toggle {
+    display: block;
+    margin-left: 1.5em;
+    margin-top: 0.5em;
+    font-size: 2em;
+   /* border: 1px solid red;*/
+  }
+  .showing {
+    height: 15em;
+    max-height: 300px;
+    border-top: 1px solid #ff5541;
+  }
+}
+
+
+
